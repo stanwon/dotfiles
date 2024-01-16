@@ -1,0 +1,44 @@
+import:
+  - ~/workspace/github/alacritty-theme/themes/base16_default_dark.yaml
+
+env:
+  TERM: xterm-256color
+
+window:
+  # padding:
+  #   x: 10
+  #   y: 10
+  opacity: 0.9
+  dimensions:
+    columns: 80
+    lines: 25
+
+font:
+  normal:
+    # family: SauceCodePro Nerd Font
+    family: FiraCode Nerd Font
+    style: Regular
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+  size: 18
+
+dynamic_title: true
+  
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t@="
+
+scrolling:
+  history: 100000
+
+cursor:
+  blinking: Always
+
+mouse:
+  hide_when_typing: true
+
+key_bindings:
+  - { key: F,         mods: Alt|Shift,      action: ToggleFullscreen }
